@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run noir",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "happa.noir.Noir",
+      "projectName": "noir",
+      "args": "--spring.profiles.active=developer -Xmx128m"
+    },
+  ]
+}
